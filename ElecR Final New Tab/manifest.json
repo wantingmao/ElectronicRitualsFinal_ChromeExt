@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Tabitual",
+  "version": "0.001",
+
+  "chrome_url_overrides" : {
+    "newtab": "sketch/index.html"
+
+  },
+    "icons": { "16": "OracleSymbol.png"
+    },
+
+  "browser_action": {
+    "default_icon": "OracleSymbol.png"
+  }
+
+}

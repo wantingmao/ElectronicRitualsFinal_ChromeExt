@@ -1,0 +1,65 @@
+
+input {
+  margin-left: 0px;
+  margin-right: 400px;
+  font-family: "Georgia", monospace;
+  font-size: 1em;
+  width: fit-content;
+  max-width: 100%;
+  background-color: #FFFFFF20;
+  color:#FFFFFF;
+  border: none;
+  border-radius: 0.1em;
+  padding: 0.5em;
+  box-shadow: 1px 1px 3px white;
+  display: block;
+}
+input:hover {
+  background-color: #FFFFFF40;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  font-family: "Georgia", monospace;
+  font-size: 0.7em;
+  background-color: #FFFFFF20;
+  color:#FFFFFF;
+  border-radius: 0.1em;
+  border: none;
+  cursor: pointer;
+  padding: 0.25em 1em;
+  box-shadow: 2px 2px 3px white;
+  margin: 0.5em;
+}
+
+button:hover {
+  background-color: #FFFFFF40;
+}
+canvas {
+  font-family: "Georgia", monospace;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+    /* margin: 5em; */
+}
+p {
+  margin-left: 550px;
+  margin-right: 85px;
+  padding: 0.5em;
+  font-family: "Georgia", monospace;
+  font-size: 0.7em;
+}
+/* h1 {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0.5em;
+  font-family: "Georgia", monospace;
+  font-size: 1.5em;
+} */
